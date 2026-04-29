@@ -1,0 +1,32 @@
+vetcare/
+├── db/
+│   ├── __init__.py
+│   ├── connection.py
+│   └── schema.sql
+├── dao/
+│   ├── __init__.py
+│   ├── base_dao.py
+│   ├── dueno_dao.py
+│   ├── mascota_dao.py
+│   └── cita_dao.py
+├── services/
+│   ├── __init__.py
+│   ├── validator_service.py
+│   ├── dueno_service.py
+│   ├── mascota_service.py
+│   └── cita_service.py
+├── ui/
+│   ├── __init__.py
+│   ├── main_window.py
+│   ├── dueno_view.py
+│   ├── mascota_view.py
+│   └── cita_view.py
+├── utils/
+│   ├── __init__.py
+│   └── helpers.py
+├── tests/
+│   └── __init__.py
+├── requirements.txt
+├── .env.example
+├── .gitignore
+└── main.py
